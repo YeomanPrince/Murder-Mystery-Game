@@ -7,3 +7,22 @@ if __name__ == "__main__":
         name = input()
         print("'+name+ ... Ah! You're the new Dectective! It's a grusome one for your first case!")
         introScene()
+
+def introscene():
+    directions = ["Get statements", "Look at the body", "Search for evidence"]
+    print("Everything you've learned has come to this. You know there are three things you needs to check; the room for evidence, check the body, and get statements from the witness. Which one will you choose first?")
+    userInput = ()
+    while userInput not in directions:
+        print("Options: Get statements/Look at the body/Search for evidence")
+        userInput = input()
+        if userInput == "Get statements":
+            showlady()
+        elif userInput == "Look at the body":
+            showbody()
+        elif userInput == "Search for evidence":
+            showweapon()
+        else:
+            print("Please enter a valid option to proceed.") 
+
+def showlady():                       
+
