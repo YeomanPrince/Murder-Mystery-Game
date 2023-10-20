@@ -8,7 +8,7 @@ if __name__ == "__main__":
         print("'+name+ ... Ah! You're the new Dectective! It's a grusome one for your first case!")
         introScene()
 
-def introscene():
+def introScene():
     directions = ["Get statements", "Look at the body", "Search for evidence"]
     print("Everything you've learned has come to this. You know there are three things you needs to check; the room for evidence, check the body, and get statements from the witness. Which one will you choose first?")
     userInput = ()
@@ -24,5 +24,10 @@ def introscene():
         else:
             print("Please enter a valid option to proceed.") 
 
-def showlady():                       
-
+def showlady():
+    directions = [""]
+    print("You walk over to a young lady. She has on a robe with her arms crossed hugging herself. You introduce yourself. 'Hi, my name is detective +name+ and I'm incharge of this investigation. Can we start with your name?")
+    print("Webster, Ruby Webster. But just call me Ruby.")
+    print("She says rubbing her arms in a sense of comfort, her head down looking up at you. She seems smaller with this action.")
+    print("Can you tell me about what happened tonight, Ruby? You ask while thumbing the pages in your moleskin")
+    print("")                     
