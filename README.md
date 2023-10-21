@@ -10,4 +10,6 @@ You're a freshly promoted homicide detective on your first crime scene.\
 And you can tell when you first walk in... this case will be interesting.\
 \
 \
-**RATING:** *TEEN*
+**RATING:** *TEEN*\
+\
+*Nudity, Violence, Blood and Gore.*
