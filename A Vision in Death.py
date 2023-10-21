@@ -21,7 +21,9 @@ def showlady():
     print("Webster, Ruby Webster. But just call me Ruby.")
     print("She says rubbing her arms in a sense of comfort, her head down looking up at you. She seems smaller with this action.")
     print("Can you tell me about what happened tonight, Ruby? You ask while thumbing the pages of your moleskin")
-    print("")
+    print("I went out with my friend for drinks. And then I came back...")
+    print("She chokes out a sob. You give her your hankerchief, she thanks you as she dabs her eyes.")
+    
 
 def showweapon():
     pass
