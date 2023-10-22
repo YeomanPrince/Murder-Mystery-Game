@@ -16,17 +16,27 @@ def introScene():
 
 
 def showlady():
-    directions = [""]
+    directions = ["Ask albi", "Go back"]
     print("You walk over to a young lady. She has on a robe with her arms crossed hugging herself. You introduce yourself. 'Hi, my name is detective +name+ and I'm incharge of this investigation. Can we start with your name?")
     print("Webster, Ruby Webster. But just call me Ruby.")
     print("She says rubbing her arms in a sense of comfort, her head down looking up at you. She seems smaller with this action.")
     print("Can you tell me about what happened tonight, Ruby? You ask while thumbing the pages of your moleskin")
     print("I went out with my friend for drinks. And then I came back...")
     print("She chokes out a sob. You give her your hankerchief, she thanks you as she dabs her eyes.")
+    # not finished dialogue and make options for interogation
+    userInput = input()
+    while userInput not in directions:
+        print("Please enter valid option to proceed")
+    if userInput == "Ask Alibi":
+        Askalibi()
+
+        def Askalibi():
+            pass
     
 
 def showweapon():
-    pass
+    directions = []
+    print("You look around the room, checking each corner and crevice.")
 
 def showbody():
     pass
