@@ -26,17 +26,30 @@ def showlady():
     # not finished dialogue and make options for interogation
     userInput = input()
     while userInput not in directions:
-        print("Please enter valid option to proceed")
+        print("Options: Ask alibi or Go back")
     if userInput == "Ask Alibi":
         Askalibi()
+
+    elif userInput == "Go back":
+        goback()
+
+    else:
+        print("Please enter valid option to proceed")    
+
+        def goback():
+            pass    
 
         def Askalibi():
             pass
     
 
 def showweapon():
-    directions = []
+    directions = ["Check knife", "Check revolver", "Go back"]
     print("You look around the room, checking each corner and crevice.")
+    userInput = input()
+    while userInput not in directions:
+        print("Options: Check knife, Check revolver, Go back")
+
 
 def showbody():
     pass
