@@ -46,8 +46,9 @@ def showlady():
 def showweapon():
     directions = ["Check knife", "Check revolver", "Go back"]
     print("You look around the room, checking each corner and crevice.")
-    userInput = input()
+    userInput = ""
     while userInput not in directions:
+        userInput = input()
         print("Options: Check knife, Check revolver, Go back")
 
 

@@ -14,6 +14,8 @@ And you can tell when you first walk in... this case will be interesting.\
 \
 *Nudity, Violence, Blood and Gore.*\
 \
+**Version 1.0**
+\
 Created with: Python, Visual Studio Code, GitHub.\
 \
 Books Used: **Python Crash Course, 2nd Edition** by *Eric Matthes*\
