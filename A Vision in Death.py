@@ -53,7 +53,37 @@ def showweapon():
 
 
 def showbody():
+    print("You step up to the body and see that it appears to be a male in his early thirties.")
+    print("Upon your intial scan of the body you see a wound in the center of his forehead")
+    print("His face had a shocked expression to him as dried blood trailed and caked the side of his face.")
+    print("You check the rest of his body and you see that his body has bruises on his bare chest,")
+    print("and 'BASTARD' written on his stomach with a red substance.")
+    print("You felt a little sick looking at the sight...")
+    userInput = ""
+    while userInput not in directions:
+        userInput = input()
+        print("Options: Talk to M.E, Check red substance, Go back")
+        if userInput =="Talk to M.E":
+            M.E()
+
+        elif userInput == "Check red substance":
+            RedSub()
+
+        elif userInput == "Go back":
+            Back()    
+
+        else:
+            print("Please enter vailid option to proceed.")  
+        
+ def M.E():
+pass
+
+def RedSub():
     pass
+
+def Back():
+    pass
+   
 
 
 if __name__ == "__main__":
@@ -63,5 +93,5 @@ if __name__ == "__main__":
         print("Entering the scene you see a man face down in the living room, furniature strewn about looking like a struggle ensued.")
         print("An officer comes up to you and says 'You're new here... What's your name?'")
         name = input()
-        print(f"{name} ... Ah! You're the new Dectective! It's a grusome one for your first case!")
+        print(f"{name .capitalize} ... Ah! You're the new Dectective! It's a grusome one for your first case!")
         introScene()
