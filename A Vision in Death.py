@@ -77,7 +77,17 @@ def showbody():
             print("Please enter vailid option to proceed.")  
         
 def ME():
-    pass
+    directions = ["Check red substance", "Go back"]
+    print("You hear someone clear their throat and you look to them.")
+    print("He appears to be an older man with a receding hairline, and a hard face that you can tell has seen terrible things.")
+    print("'And... you are?' The man says in a gruff voice while still looking at the body and scribbling on his clipboard.")
+    print(f"I'm Detective {name .capitalize}. What've we got?")
+    print("Straight to the point, I like it.")
+    print("Pretty straight forward this one. Gunshot to the head, evidence of a struggle.")
+    print("'Time of death?' You ask.")
+    print("'Judging by the blood pooling, and the discolouration I'd say between 1 and 3 in the morning.'")
+    
+
 
 
 def RedSub():
