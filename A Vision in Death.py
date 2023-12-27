@@ -64,7 +64,7 @@ def showbody():
         userInput = input()
         print("Options: Talk to M.E, Check red substance, Go back")
         if userInput =="Talk to M.E":
-            M.E()
+            ME()
 
         elif userInput == "Check red substance":
             RedSub()
@@ -75,8 +75,9 @@ def showbody():
         else:
             print("Please enter vailid option to proceed.")  
         
- def M.E():
-pass
+ def ME():
+    pass
+
 
 def RedSub():
     pass
