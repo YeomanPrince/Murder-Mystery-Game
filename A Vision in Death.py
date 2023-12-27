@@ -62,5 +62,5 @@ if __name__ == "__main__":
         print("Entering the scene you see a man face down in the living room, furniature strewn about looking like a struggle ensued.")
         print("An officer comes up to you and says 'You're new here... What's your name?'")
         name = input()
-        print("'+name+ ... Ah! You're the new Dectective! It's a grusome one for your first case!")
+        print(f"{name} ... Ah! You're the new Dectective! It's a grusome one for your first case!")
         introScene()
