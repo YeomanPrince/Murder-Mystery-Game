@@ -53,6 +53,7 @@ def showweapon():
 
 
 def showbody():
+    directions = ["Talk to M.E", "Check red substance", "Go back"]
     print("You step up to the body and see that it appears to be a male in his early thirties.")
     print("Upon your intial scan of the body you see a wound in the center of his forehead")
     print("His face had a shocked expression to him as dried blood trailed and caked the side of his face.")
@@ -75,7 +76,7 @@ def showbody():
         else:
             print("Please enter vailid option to proceed.")  
         
- def ME():
+def ME():
     pass
 
 
